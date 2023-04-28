@@ -15,7 +15,8 @@ if __name__ == '__main__':
 
 # See PyCharm he
 # lp at https://www.jetbrains.com/help/pycharm/
-print("kwame")
+# print("kwame")
+#AES Cryptocraphy 
 
 from cryptography.fernet import Fernet
 key = Fernet.generate_key()
@@ -25,4 +26,7 @@ encrypted_message = fernet.encrypt(message)
 print("Your encrypted message is:", encrypted_message)
 decrypted_message = fernet.decrypt(encrypted_message)
 print("Your decrypted/plaintext is:", decrypted_message)
+
+
+
 
